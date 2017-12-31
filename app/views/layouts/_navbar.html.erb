@@ -1,0 +1,16 @@
+
+<div class="nav">
+  <nav class="navbar navbar-toggleable-md navbar-light bg-faded">
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+   <%= image_tag("you_360.png", :alt => "rss feed", :id => "logo") %>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <ul class="navbar-nav">
+        <li class="text-left"><%= link_to 'HOME', root_path, class: "link-color" %></li>
+        <li class="text-left"><%= link_to 'PORTFOLIO', home_work_path, class:"link-color"%></li>
+        <li class="text-left"><%= link_to 'CONTACT', home_contact_path, class:"link-color"%></li>
+      </ul>
+    </div>
+  </nav>
+</div>

@@ -1,0 +1,7 @@
+{
+  "name": "portfoliotessa",
+  "private": true,
+  "dependencies": {
+    "startbootstrap-thumbnail-gallery": "^4.0.0-alpha"
+  }
+}

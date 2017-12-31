@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="images and links to work">
+    <meta name="author" content="Tessa Reed">
+    <title>Work</title>
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="css/thumbnail-gallery.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Chivo" rel="stylesheet">
+</head>
+
+<body>
+<!-- Page Content -->
+<div class="container">
+  <h1 class="my-4 text-center text-lg-left">Portfolio</h1>
+</div>
+
+<div class ="bg-pink">
+<div class="container">
+
+  <div class="row text-center text-lg-left">
+
+  <div class="col-lg-3 col-md-4 col-xs-6">
+    <%= link_to home_ux_path do %>
+      <%= image_tag "ux.png", class: "img-fluid img-thumbnail" %>
+     <% end %>
+  </div>
+
+  <div class="col-lg-3 col-md-4 col-xs-6">
+    <%= link_to home_code_path do %>
+      <%= image_tag "coderacademy.png", class: "img-fluid img-thumbnail" %>
+     <% end %>
+  </div>
+
+
+  <div class="col-lg-3 col-md-4 col-xs-6">
+    <%= link_to home_radio_path do %>
+      <%= image_tag "radio.png", class: "img-fluid img-thumbnail" %>
+     <% end %>
+  </div>
+
+  <div class="col-lg-3 col-md-4 col-xs-6">
+    <%= link_to home_film_path do %>
+      <%= image_tag "film.png", class: "img-fluid img-thumbnail" %>
+     <% end %>
+  </div>
+  </div>
+</div>
+
+  <!-- /.container -->
+<!-- do you like my work form -->
+  <!-- <form>
+    <h3 id="like">DO YOU LIKE MY WORK?</h3>
+    <input class="hide" type="checkbox" title="Happy" name="happy" id="happy">
+    <label for="happy" class="option-happy">YES</label>
+
+    <input class="hide" type="checkbox" title="Sad" name="sad" id="sad">
+    <label for="sad" class="option-sad">NO</label>
+  </form>
+</div> -->
+<!-- get in contact! cta-->
+  <div id="cta">
+      <div class="wrapper">
+          <h3>Get in Touch.</h3>
+          <p>Please get in touch would love to hear from you.</p>
+          <a href="/home/contact" class="button-2">Contact Me!</a>
+      </div>
+  </div>
+
+</body>

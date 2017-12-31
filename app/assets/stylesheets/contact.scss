@@ -1,0 +1,50 @@
+
+body {
+    padding-top: 54px;
+}
+
+@media (min-width: 992px) {
+    body {
+        padding-top: 56px;
+    }
+}
+
+.form-area
+{
+  background-color: #f9e7e9;
+	padding: 10px 40px 60px;
+	margin: 10px 0px 60px;
+	border: 1px solid rebeccapurple;
+	}
+
+.contact-image
+{
+  vertical-align: middle;
+  border-style: none;
+  height: 350px;
+  margin-top: 80px;
+  margin-top: 80px;
+}
+
+h1 {text-align: left;}
+
+h3 {color: rebeccapurple;}
+
+
+button #submit {
+    border-radius: 12px;
+    padding: 10px 24px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    background-color: white;
+    color: rebeccapurple;
+    border: 2px solid pink;
+}
+
+#submit:hover {
+    background-color: pink;
+    color: white;
+}
+
+
+#cta {margin-top: 100px;}
