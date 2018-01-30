@@ -40,10 +40,11 @@
 body {
     font-size: 15px;
     color: rebeccapurple;
+    font-family: 'Anton', sans-serif !important;
 }
 
 h1 {
-    font-family: 'Anton', sans-serif !important;
+    font-family: 'Noto Serif', serif;
     font-weight: 600;
     color: deeppink;
     font-size: 35px;
@@ -70,6 +71,7 @@ h4 {
     font-weight: bold;
     text-transform: uppercase;
     margin-bottom: 20px;
+    font-family: 'Noto Serif', serif;
 }
 
 // hero
